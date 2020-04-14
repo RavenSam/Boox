@@ -1,0 +1,57 @@
+.Appbar {
+   background-color: #1a1a1a !important;
+}
+
+.drawer .menuItem {
+   width: 280px;
+   background-image: linear-gradient(0, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/menu-bg.jpg");
+   background-size: cover;
+   height: 100% !important;
+}
+
+button,
+ul,
+.listItem,
+.menuButton,
+.MuiPaper-root,
+.MuiTouchRipple-root,
+.MuiInputBase-root {
+   color: #eee !important;
+}
+
+.MuiDivider-light {
+   background-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+.MuiListItem-button:hover {
+   background-color: rgba(255, 255, 255, 0.04) !important;
+}
+
+.rightSide {
+   margin-left: auto;
+   display: flex;
+   align-items: center;
+}
+
+.MuiInputBase-input {
+   padding: 6px 0 6px 1rem !important;
+}
+
+.search {
+   border-radius: 25px;
+   background-color: rgba(255, 255, 255, 0.075);
+}
+
+.input {
+   width: 150px !important;
+}
+
+@media (max-width: 450px) {
+   .xs-d-none {
+      display: none !important;
+   }
+
+   .drawer .menuItem {
+      width: 250px;
+   }
+}
