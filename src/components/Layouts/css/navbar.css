@@ -2,11 +2,27 @@
    background-color: #1a1a1a !important;
 }
 
+.logo {
+   width: 130px;
+}
+.logoMenu {
+   width: 80%;
+}
+.logoContainer {
+   text-align: center;
+   padding: 1.5rem 0;
+}
+
 .drawer .menuItem {
    width: 280px;
-   background-image: linear-gradient(0, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/menu-bg.jpg");
+   background-image: linear-gradient(0, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../../images/menu-bg.jpg");
    background-size: cover;
    height: 100% !important;
+}
+
+.menuItem hr {
+   margin-bottom: 1.5rem;
+   opacity: 0.2;
 }
 
 button,
@@ -44,6 +60,10 @@ ul,
 
 .input {
    width: 150px !important;
+}
+
+.navInput {
+   width: 80% !important;
 }
 
 @media (max-width: 450px) {
